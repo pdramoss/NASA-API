@@ -14,6 +14,12 @@
 		E5DE7816250D6FB700E9CC36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5DE7815250D6FB700E9CC36 /* Assets.xcassets */; };
 		E5DE7819250D6FB700E9CC36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5DE7817250D6FB700E9CC36 /* LaunchScreen.storyboard */; };
 		E5DE7824250D6FB700E9CC36 /* Nasa_APITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DE7823250D6FB700E9CC36 /* Nasa_APITests.swift */; };
+		E5DE7831250D70C700E9CC36 /* ErrorNetwoking.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DE7830250D70C700E9CC36 /* ErrorNetwoking.swift */; };
+		E5DE7834250D70FA00E9CC36 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DE7833250D70FA00E9CC36 /* EndPointType.swift */; };
+		E5DE7836250D711200E9CC36 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DE7835250D711200E9CC36 /* HTTPMethod.swift */; };
+		E5DE7838250D712E00E9CC36 /* NetworkingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DE7837250D712E00E9CC36 /* NetworkingRouter.swift */; };
+		E5DE783B250D715700E9CC36 /* NetworkingLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DE783A250D715700E9CC36 /* NetworkingLogger.swift */; };
+		E5DE783E250D71B000E9CC36 /* DefaultNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DE783D250D71B000E9CC36 /* DefaultNetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +44,12 @@
 		E5DE781F250D6FB700E9CC36 /* Nasa APITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nasa APITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5DE7823250D6FB700E9CC36 /* Nasa_APITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nasa_APITests.swift; sourceTree = "<group>"; };
 		E5DE7825250D6FB700E9CC36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5DE7830250D70C700E9CC36 /* ErrorNetwoking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorNetwoking.swift; sourceTree = "<group>"; };
+		E5DE7833250D70FA00E9CC36 /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		E5DE7835250D711200E9CC36 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		E5DE7837250D712E00E9CC36 /* NetworkingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingRouter.swift; sourceTree = "<group>"; };
+		E5DE783A250D715700E9CC36 /* NetworkingLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingLogger.swift; sourceTree = "<group>"; };
+		E5DE783D250D71B000E9CC36 /* DefaultNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultNetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +91,8 @@
 		E5DE780B250D6FB300E9CC36 /* Nasa API */ = {
 			isa = PBXGroup;
 			children = (
+				E5DE7839250D714900E9CC36 /* Logger */,
+				E5DE782E250D707B00E9CC36 /* Networking */,
 				E5DE780C250D6FB300E9CC36 /* AppDelegate.swift */,
 				E5DE780E250D6FB300E9CC36 /* SceneDelegate.swift */,
 				E5DE7810250D6FB300E9CC36 /* ViewController.swift */,
@@ -97,6 +111,50 @@
 				E5DE7825250D6FB700E9CC36 /* Info.plist */,
 			);
 			path = "Nasa APITests";
+			sourceTree = "<group>";
+		};
+		E5DE782E250D707B00E9CC36 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E5DE783C250D719A00E9CC36 /* Manager */,
+				E5DE7832250D70E700E9CC36 /* Service */,
+				E5DE782F250D70A100E9CC36 /* Errors */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		E5DE782F250D70A100E9CC36 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				E5DE7830250D70C700E9CC36 /* ErrorNetwoking.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		E5DE7832250D70E700E9CC36 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E5DE7833250D70FA00E9CC36 /* EndPointType.swift */,
+				E5DE7835250D711200E9CC36 /* HTTPMethod.swift */,
+				E5DE7837250D712E00E9CC36 /* NetworkingRouter.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E5DE7839250D714900E9CC36 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				E5DE783A250D715700E9CC36 /* NetworkingLogger.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		E5DE783C250D719A00E9CC36 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				E5DE783D250D71B000E9CC36 /* DefaultNetworkManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,7 +260,13 @@
 			files = (
 				E5DE7811250D6FB300E9CC36 /* ViewController.swift in Sources */,
 				E5DE780D250D6FB300E9CC36 /* AppDelegate.swift in Sources */,
+				E5DE7836250D711200E9CC36 /* HTTPMethod.swift in Sources */,
+				E5DE7838250D712E00E9CC36 /* NetworkingRouter.swift in Sources */,
 				E5DE780F250D6FB300E9CC36 /* SceneDelegate.swift in Sources */,
+				E5DE783E250D71B000E9CC36 /* DefaultNetworkManager.swift in Sources */,
+				E5DE7834250D70FA00E9CC36 /* EndPointType.swift in Sources */,
+				E5DE7831250D70C700E9CC36 /* ErrorNetwoking.swift in Sources */,
+				E5DE783B250D715700E9CC36 /* NetworkingLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
