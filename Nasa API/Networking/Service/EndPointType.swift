@@ -22,7 +22,7 @@ protocol EndPointType {
 
 extension EndPointType {
     private var environmentBaseURl: String {
-        "https://api.nasa.gov/"
+        Environment.baseURL
     }
     
     var baseURL: URL {
@@ -43,7 +43,7 @@ extension EndPointType {
     }
     
     private var defaultParameters: Parameters? {
-        ["api_key": "MD4jvp5cAicSJKW7eXPilMTs7B9DcuybkZ0iIaf8"]
+        ["api_key": Environment.apiKey]
     }
     
     public var allParameters: Parameters? {

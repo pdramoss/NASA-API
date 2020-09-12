@@ -1,0 +1,14 @@
+//
+//  Development.xcconfig
+//  Nasa API
+//
+//  Created by Pedro Ramos on 12/09/20.
+//  Copyright © 2020 Pedro Ramos. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+base_url = api.nasa.gov
+api_key = MD4jvp5cAicSJKW7eXPilMTs7B9DcuybkZ0iIaf8
+log_enabled = true

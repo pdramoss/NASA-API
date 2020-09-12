@@ -1,0 +1,14 @@
+//
+//  Production.xcconfig
+//  Nasa API
+//
+//  Created by Pedro Ramos on 12/09/20.
+//  Copyright © 2020 Pedro Ramos. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+base_url = Production
+api_key = Production
+log_enabled = false

@@ -11,8 +11,8 @@ import Foundation
 class NetworkingLogger {
     static func log(request: URLRequest) {
         
-        print("\n - - - - - - - - - - OUTGOING - - - - - - - - - - \n")
-        defer { print("\n - - - - - - - - - -  END - - - - - - - - - - \n") }
+        Logger.info("\n - - - - - - - - - - OUTGOING - - - - - - - - - - \n")
+        defer { Logger.info("\n - - - - - - - - - -  END - - - - - - - - - - \n") }
         
         let urlAsString = request.url?.absoluteString ?? ""
         let urlComponents = NSURLComponents(string: urlAsString)
@@ -34,7 +34,7 @@ class NetworkingLogger {
             logOutput += "\n \(NSString(data: body, encoding: String.Encoding.utf8.rawValue) ?? "")"
         }
         
-        print(logOutput)
+        Logger.info(logOutput)
     }
     
     static func log(response: URLResponse) {}

@@ -60,5 +60,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>base_url</key>
+	<string>https://${base_url}</string>
+	<key>api_key</key>
+	<string>${api_key}</string>
+	<key>log_enabled</key>
+	<string>${log_enabled}</string>
 </dict>
 </plist>
