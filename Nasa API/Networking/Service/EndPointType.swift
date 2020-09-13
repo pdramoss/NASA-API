@@ -17,7 +17,7 @@ protocol EndPointType {
     var data: Data? { get }
     var httpMethod: HTTPMethod { get }
     var parameters: Parameters? { get }
-    var headers: HTTPHeaders? { get set }
+    var headers: HTTPHeaders? { get}
 }
 
 extension EndPointType {

@@ -10,6 +10,11 @@
 		E567E14A250D905B00FB1A42 /* BuildConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E567E149250D905B00FB1A42 /* BuildConfiguration.swift */; };
 		E567E14C250D93B300FB1A42 /* LoggerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E567E14B250D93B300FB1A42 /* LoggerProtocol.swift */; };
 		E567E14E250D94EF00FB1A42 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E567E14D250D94EF00FB1A42 /* Logger.swift */; };
+		E567E152250DA5B500FB1A42 /* NetworkingAPODApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E567E151250DA5B500FB1A42 /* NetworkingAPODApi.swift */; };
+		E567E154250DA5CD00FB1A42 /* NetworkingAPODAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E567E153250DA5CD00FB1A42 /* NetworkingAPODAdapter.swift */; };
+		E567E156250DA5F300FB1A42 /* NetworkingAPODProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E567E155250DA5F300FB1A42 /* NetworkingAPODProtocols.swift */; };
+		E567E159250DACD400FB1A42 /* EntityAPOD.swift in Sources */ = {isa = PBXBuildFile; fileRef = E567E158250DACD400FB1A42 /* EntityAPOD.swift */; };
+		E567E15C250DAF3E00FB1A42 /* EntityMediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E567E15B250DAF3E00FB1A42 /* EntityMediaType.swift */; };
 		E5DE780D250D6FB300E9CC36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DE780C250D6FB300E9CC36 /* AppDelegate.swift */; };
 		E5DE780F250D6FB300E9CC36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DE780E250D6FB300E9CC36 /* SceneDelegate.swift */; };
 		E5DE7811250D6FB300E9CC36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DE7810250D6FB300E9CC36 /* ViewController.swift */; };
@@ -42,6 +47,11 @@
 		E567E149250D905B00FB1A42 /* BuildConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildConfiguration.swift; sourceTree = "<group>"; };
 		E567E14B250D93B300FB1A42 /* LoggerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerProtocol.swift; sourceTree = "<group>"; };
 		E567E14D250D94EF00FB1A42 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		E567E151250DA5B500FB1A42 /* NetworkingAPODApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingAPODApi.swift; sourceTree = "<group>"; };
+		E567E153250DA5CD00FB1A42 /* NetworkingAPODAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingAPODAdapter.swift; sourceTree = "<group>"; };
+		E567E155250DA5F300FB1A42 /* NetworkingAPODProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingAPODProtocols.swift; sourceTree = "<group>"; };
+		E567E158250DACD400FB1A42 /* EntityAPOD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityAPOD.swift; sourceTree = "<group>"; };
+		E567E15B250DAF3E00FB1A42 /* EntityMediaType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityMediaType.swift; sourceTree = "<group>"; };
 		E5DE7809250D6FB300E9CC36 /* Nasa API Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nasa API Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5DE780C250D6FB300E9CC36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5DE780E250D6FB300E9CC36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +100,41 @@
 			path = EnvironmentConfig;
 			sourceTree = "<group>";
 		};
+		E567E14F250DA56E00FB1A42 /* BrowseAPIs */ = {
+			isa = PBXGroup;
+			children = (
+				E567E150250DA58000FB1A42 /* APOD */,
+			);
+			path = BrowseAPIs;
+			sourceTree = "<group>";
+		};
+		E567E150250DA58000FB1A42 /* APOD */ = {
+			isa = PBXGroup;
+			children = (
+				E567E151250DA5B500FB1A42 /* NetworkingAPODApi.swift */,
+				E567E153250DA5CD00FB1A42 /* NetworkingAPODAdapter.swift */,
+				E567E155250DA5F300FB1A42 /* NetworkingAPODProtocols.swift */,
+			);
+			path = APOD;
+			sourceTree = "<group>";
+		};
+		E567E157250DA60100FB1A42 /* Domains */ = {
+			isa = PBXGroup;
+			children = (
+				E567E15A250DAF2600FB1A42 /* Enums */,
+				E567E158250DACD400FB1A42 /* EntityAPOD.swift */,
+			);
+			path = Domains;
+			sourceTree = "<group>";
+		};
+		E567E15A250DAF2600FB1A42 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				E567E15B250DAF3E00FB1A42 /* EntityMediaType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
 		E5DE7800250D6FB300E9CC36 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +156,7 @@
 		E5DE780B250D6FB300E9CC36 /* Nasa API */ = {
 			isa = PBXGroup;
 			children = (
+				E567E157250DA60100FB1A42 /* Domains */,
 				E567E145250D8C7D00FB1A42 /* EnvironmentConfig */,
 				E5DE7839250D714900E9CC36 /* Logger */,
 				E5DE782E250D707B00E9CC36 /* Networking */,
@@ -137,6 +183,7 @@
 		E5DE782E250D707B00E9CC36 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				E567E14F250DA56E00FB1A42 /* BrowseAPIs */,
 				E5DE783C250D719A00E9CC36 /* Manager */,
 				E5DE7832250D70E700E9CC36 /* Service */,
 				E5DE782F250D70A100E9CC36 /* Errors */,
@@ -283,14 +330,19 @@
 			files = (
 				E5DE7811250D6FB300E9CC36 /* ViewController.swift in Sources */,
 				E5DE780D250D6FB300E9CC36 /* AppDelegate.swift in Sources */,
+				E567E152250DA5B500FB1A42 /* NetworkingAPODApi.swift in Sources */,
 				E567E14C250D93B300FB1A42 /* LoggerProtocol.swift in Sources */,
+				E567E154250DA5CD00FB1A42 /* NetworkingAPODAdapter.swift in Sources */,
 				E5DE7836250D711200E9CC36 /* HTTPMethod.swift in Sources */,
 				E5DE7838250D712E00E9CC36 /* NetworkingRouter.swift in Sources */,
 				E5DE780F250D6FB300E9CC36 /* SceneDelegate.swift in Sources */,
 				E567E14A250D905B00FB1A42 /* BuildConfiguration.swift in Sources */,
+				E567E15C250DAF3E00FB1A42 /* EntityMediaType.swift in Sources */,
 				E567E14E250D94EF00FB1A42 /* Logger.swift in Sources */,
 				E5DE783E250D71B000E9CC36 /* DefaultNetworkManager.swift in Sources */,
 				E5DE7834250D70FA00E9CC36 /* EndPointType.swift in Sources */,
+				E567E159250DACD400FB1A42 /* EntityAPOD.swift in Sources */,
+				E567E156250DA5F300FB1A42 /* NetworkingAPODProtocols.swift in Sources */,
 				E5DE7831250D70C700E9CC36 /* ErrorNetwoking.swift in Sources */,
 				E5DE783B250D715700E9CC36 /* NetworkingLogger.swift in Sources */,
 			);
