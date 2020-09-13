@@ -15,6 +15,25 @@
 		E567E156250DA5F300FB1A42 /* NetworkingAPODProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E567E155250DA5F300FB1A42 /* NetworkingAPODProtocols.swift */; };
 		E567E159250DACD400FB1A42 /* EntityAPOD.swift in Sources */ = {isa = PBXBuildFile; fileRef = E567E158250DACD400FB1A42 /* EntityAPOD.swift */; };
 		E567E15C250DAF3E00FB1A42 /* EntityMediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E567E15B250DAF3E00FB1A42 /* EntityMediaType.swift */; };
+		E567E171250DB34100FB1A42 /* Metropolis-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E567E15F250DB34100FB1A42 /* Metropolis-Regular.otf */; };
+		E567E172250DB34100FB1A42 /* Metropolis-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = E567E160250DB34100FB1A42 /* Metropolis-Medium.otf */; };
+		E567E173250DB34100FB1A42 /* Metropolis-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E567E161250DB34100FB1A42 /* Metropolis-ExtraLightItalic.otf */; };
+		E567E174250DB34100FB1A42 /* Metropolis-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E567E162250DB34100FB1A42 /* Metropolis-LightItalic.otf */; };
+		E567E175250DB34100FB1A42 /* Metropolis-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E567E163250DB34100FB1A42 /* Metropolis-SemiBoldItalic.otf */; };
+		E567E176250DB34100FB1A42 /* Metropolis-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E567E164250DB34100FB1A42 /* Metropolis-MediumItalic.otf */; };
+		E567E177250DB34100FB1A42 /* Metropolis-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E567E165250DB34100FB1A42 /* Metropolis-SemiBold.otf */; };
+		E567E178250DB34100FB1A42 /* Metropolis-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = E567E166250DB34100FB1A42 /* Metropolis-Black.otf */; };
+		E567E179250DB34100FB1A42 /* Metropolis-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E567E167250DB34100FB1A42 /* Metropolis-Bold.otf */; };
+		E567E17A250DB34100FB1A42 /* Metropolis-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E567E168250DB34100FB1A42 /* Metropolis-RegularItalic.otf */; };
+		E567E17B250DB34100FB1A42 /* Metropolis-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = E567E169250DB34100FB1A42 /* Metropolis-Thin.otf */; };
+		E567E17C250DB34100FB1A42 /* Metropolis-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E567E16A250DB34100FB1A42 /* Metropolis-BoldItalic.otf */; };
+		E567E17D250DB34100FB1A42 /* Metropolis-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = E567E16B250DB34100FB1A42 /* Metropolis-ExtraLight.otf */; };
+		E567E17E250DB34100FB1A42 /* Metropolis-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E567E16C250DB34100FB1A42 /* Metropolis-ExtraBold.otf */; };
+		E567E17F250DB34100FB1A42 /* Metropolis-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E567E16D250DB34100FB1A42 /* Metropolis-ThinItalic.otf */; };
+		E567E180250DB34100FB1A42 /* Metropolis-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E567E16E250DB34100FB1A42 /* Metropolis-ExtraBoldItalic.otf */; };
+		E567E181250DB34100FB1A42 /* Metropolis-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = E567E16F250DB34100FB1A42 /* Metropolis-Light.otf */; };
+		E567E182250DB34100FB1A42 /* Metropolis-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E567E170250DB34100FB1A42 /* Metropolis-BlackItalic.otf */; };
+		E567E184250DB37400FB1A42 /* FontFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E567E183250DB37400FB1A42 /* FontFactory.swift */; };
 		E5DE780D250D6FB300E9CC36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DE780C250D6FB300E9CC36 /* AppDelegate.swift */; };
 		E5DE780F250D6FB300E9CC36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DE780E250D6FB300E9CC36 /* SceneDelegate.swift */; };
 		E5DE7811250D6FB300E9CC36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DE7810250D6FB300E9CC36 /* ViewController.swift */; };
@@ -52,6 +71,25 @@
 		E567E155250DA5F300FB1A42 /* NetworkingAPODProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingAPODProtocols.swift; sourceTree = "<group>"; };
 		E567E158250DACD400FB1A42 /* EntityAPOD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityAPOD.swift; sourceTree = "<group>"; };
 		E567E15B250DAF3E00FB1A42 /* EntityMediaType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityMediaType.swift; sourceTree = "<group>"; };
+		E567E15F250DB34100FB1A42 /* Metropolis-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Regular.otf"; sourceTree = "<group>"; };
+		E567E160250DB34100FB1A42 /* Metropolis-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Medium.otf"; sourceTree = "<group>"; };
+		E567E161250DB34100FB1A42 /* Metropolis-ExtraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		E567E162250DB34100FB1A42 /* Metropolis-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-LightItalic.otf"; sourceTree = "<group>"; };
+		E567E163250DB34100FB1A42 /* Metropolis-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		E567E164250DB34100FB1A42 /* Metropolis-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-MediumItalic.otf"; sourceTree = "<group>"; };
+		E567E165250DB34100FB1A42 /* Metropolis-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-SemiBold.otf"; sourceTree = "<group>"; };
+		E567E166250DB34100FB1A42 /* Metropolis-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Black.otf"; sourceTree = "<group>"; };
+		E567E167250DB34100FB1A42 /* Metropolis-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Bold.otf"; sourceTree = "<group>"; };
+		E567E168250DB34100FB1A42 /* Metropolis-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-RegularItalic.otf"; sourceTree = "<group>"; };
+		E567E169250DB34100FB1A42 /* Metropolis-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Thin.otf"; sourceTree = "<group>"; };
+		E567E16A250DB34100FB1A42 /* Metropolis-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-BoldItalic.otf"; sourceTree = "<group>"; };
+		E567E16B250DB34100FB1A42 /* Metropolis-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-ExtraLight.otf"; sourceTree = "<group>"; };
+		E567E16C250DB34100FB1A42 /* Metropolis-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-ExtraBold.otf"; sourceTree = "<group>"; };
+		E567E16D250DB34100FB1A42 /* Metropolis-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-ThinItalic.otf"; sourceTree = "<group>"; };
+		E567E16E250DB34100FB1A42 /* Metropolis-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		E567E16F250DB34100FB1A42 /* Metropolis-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Light.otf"; sourceTree = "<group>"; };
+		E567E170250DB34100FB1A42 /* Metropolis-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-BlackItalic.otf"; sourceTree = "<group>"; };
+		E567E183250DB37400FB1A42 /* FontFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontFactory.swift; sourceTree = "<group>"; };
 		E5DE7809250D6FB300E9CC36 /* Nasa API Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nasa API Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5DE780C250D6FB300E9CC36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5DE780E250D6FB300E9CC36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +173,40 @@
 			path = Enums;
 			sourceTree = "<group>";
 		};
+		E567E15D250DB2CC00FB1A42 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E567E15E250DB2EA00FB1A42 /* Metropolis Font */,
+				E567E183250DB37400FB1A42 /* FontFactory.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		E567E15E250DB2EA00FB1A42 /* Metropolis Font */ = {
+			isa = PBXGroup;
+			children = (
+				E567E166250DB34100FB1A42 /* Metropolis-Black.otf */,
+				E567E170250DB34100FB1A42 /* Metropolis-BlackItalic.otf */,
+				E567E167250DB34100FB1A42 /* Metropolis-Bold.otf */,
+				E567E16A250DB34100FB1A42 /* Metropolis-BoldItalic.otf */,
+				E567E16C250DB34100FB1A42 /* Metropolis-ExtraBold.otf */,
+				E567E16E250DB34100FB1A42 /* Metropolis-ExtraBoldItalic.otf */,
+				E567E16B250DB34100FB1A42 /* Metropolis-ExtraLight.otf */,
+				E567E161250DB34100FB1A42 /* Metropolis-ExtraLightItalic.otf */,
+				E567E16F250DB34100FB1A42 /* Metropolis-Light.otf */,
+				E567E162250DB34100FB1A42 /* Metropolis-LightItalic.otf */,
+				E567E160250DB34100FB1A42 /* Metropolis-Medium.otf */,
+				E567E164250DB34100FB1A42 /* Metropolis-MediumItalic.otf */,
+				E567E15F250DB34100FB1A42 /* Metropolis-Regular.otf */,
+				E567E168250DB34100FB1A42 /* Metropolis-RegularItalic.otf */,
+				E567E165250DB34100FB1A42 /* Metropolis-SemiBold.otf */,
+				E567E163250DB34100FB1A42 /* Metropolis-SemiBoldItalic.otf */,
+				E567E169250DB34100FB1A42 /* Metropolis-Thin.otf */,
+				E567E16D250DB34100FB1A42 /* Metropolis-ThinItalic.otf */,
+			);
+			path = "Metropolis Font";
+			sourceTree = "<group>";
+		};
 		E5DE7800250D6FB300E9CC36 = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +228,7 @@
 		E5DE780B250D6FB300E9CC36 /* Nasa API */ = {
 			isa = PBXGroup;
 			children = (
+				E567E15D250DB2CC00FB1A42 /* Assets */,
 				E567E157250DA60100FB1A42 /* Domains */,
 				E567E145250D8C7D00FB1A42 /* EnvironmentConfig */,
 				E5DE7839250D714900E9CC36 /* Logger */,
@@ -308,9 +381,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E567E17F250DB34100FB1A42 /* Metropolis-ThinItalic.otf in Resources */,
+				E567E178250DB34100FB1A42 /* Metropolis-Black.otf in Resources */,
 				E5DE7819250D6FB700E9CC36 /* LaunchScreen.storyboard in Resources */,
+				E567E179250DB34100FB1A42 /* Metropolis-Bold.otf in Resources */,
+				E567E180250DB34100FB1A42 /* Metropolis-ExtraBoldItalic.otf in Resources */,
+				E567E17A250DB34100FB1A42 /* Metropolis-RegularItalic.otf in Resources */,
 				E5DE7816250D6FB700E9CC36 /* Assets.xcassets in Resources */,
+				E567E17C250DB34100FB1A42 /* Metropolis-BoldItalic.otf in Resources */,
+				E567E17E250DB34100FB1A42 /* Metropolis-ExtraBold.otf in Resources */,
+				E567E171250DB34100FB1A42 /* Metropolis-Regular.otf in Resources */,
+				E567E182250DB34100FB1A42 /* Metropolis-BlackItalic.otf in Resources */,
+				E567E17D250DB34100FB1A42 /* Metropolis-ExtraLight.otf in Resources */,
+				E567E172250DB34100FB1A42 /* Metropolis-Medium.otf in Resources */,
+				E567E175250DB34100FB1A42 /* Metropolis-SemiBoldItalic.otf in Resources */,
 				E5DE7814250D6FB300E9CC36 /* Main.storyboard in Resources */,
+				E567E181250DB34100FB1A42 /* Metropolis-Light.otf in Resources */,
+				E567E177250DB34100FB1A42 /* Metropolis-SemiBold.otf in Resources */,
+				E567E176250DB34100FB1A42 /* Metropolis-MediumItalic.otf in Resources */,
+				E567E174250DB34100FB1A42 /* Metropolis-LightItalic.otf in Resources */,
+				E567E17B250DB34100FB1A42 /* Metropolis-Thin.otf in Resources */,
+				E567E173250DB34100FB1A42 /* Metropolis-ExtraLightItalic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +434,7 @@
 				E5DE7834250D70FA00E9CC36 /* EndPointType.swift in Sources */,
 				E567E159250DACD400FB1A42 /* EntityAPOD.swift in Sources */,
 				E567E156250DA5F300FB1A42 /* NetworkingAPODProtocols.swift in Sources */,
+				E567E184250DB37400FB1A42 /* FontFactory.swift in Sources */,
 				E5DE7831250D70C700E9CC36 /* ErrorNetwoking.swift in Sources */,
 				E5DE783B250D715700E9CC36 /* NetworkingLogger.swift in Sources */,
 			);
