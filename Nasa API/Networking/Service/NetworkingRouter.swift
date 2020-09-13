@@ -30,7 +30,7 @@ class NetworkingRouter<EndPoint: EndPointType>: NetworkingRouterProtocol {
         urlRequest.httpBody = route.httpMethod == .get ? nil : route.data
         if route.httpMethod == .get {
             var newURL = URLComponents(string: urlRequest.url?.absoluteString ?? String())
-            newURL?.queryItems = route.parameters?.map({ (key: String, value: Any) -> URLQueryItem in
+            newURL?.queryItems = route.allParameters?.map({ (key: String, value: Any) -> URLQueryItem in
                 URLQueryItem(name: key, value: "\(value)")
             })
             urlRequest.url = newURL?.url

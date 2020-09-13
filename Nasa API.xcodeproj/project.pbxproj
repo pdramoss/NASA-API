@@ -184,6 +184,7 @@
 		E567E15D250DB2CC00FB1A42 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				E567E19A250DCDCA00FB1A42 /* Theme */,
 				E567E15E250DB2EA00FB1A42 /* Metropolis Font */,
 				E567E183250DB37400FB1A42 /* FontFactory.swift */,
 			);
@@ -226,7 +227,6 @@
 		E567E186250DBAB200FB1A42 /* APODModule */ = {
 			isa = PBXGroup;
 			children = (
-				E567E187250DBAE500FB1A42 /* Entity */,
 				E567E188250DBAF400FB1A42 /* Interactor */,
 				E567E189250DBAFC00FB1A42 /* Presenter */,
 				E567E18A250DBB0400FB1A42 /* Protocols */,
@@ -234,13 +234,6 @@
 				E567E18C250DBB1700FB1A42 /* View */,
 			);
 			path = APODModule;
-			sourceTree = "<group>";
-		};
-		E567E187250DBAE500FB1A42 /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Entity;
 			sourceTree = "<group>";
 		};
 		E567E188250DBAF400FB1A42 /* Interactor */ = {
@@ -294,6 +287,13 @@
 			path = Initializate;
 			sourceTree = "<group>";
 		};
+		E567E19A250DCDCA00FB1A42 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
 		E5DE7800250D6FB300E9CC36 = {
 			isa = PBXGroup;
 			children = (
@@ -322,8 +322,8 @@
 				E567E145250D8C7D00FB1A42 /* EnvironmentConfig */,
 				E567E18D250DBB3D00FB1A42 /* Initializate */,
 				E5DE7839250D714900E9CC36 /* Logger */,
-				E5DE782E250D707B00E9CC36 /* Networking */,
 				E567E185250DBA7B00FB1A42 /* Modules */,
+				E5DE782E250D707B00E9CC36 /* Networking */,
 			);
 			path = "Nasa API";
 			sourceTree = "<group>";

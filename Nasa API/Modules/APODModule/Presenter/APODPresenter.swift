@@ -12,8 +12,18 @@ class APODPresenter: APODPresenterProtocol {
     weak var view: APODViewProtocol?
     var router: APODRouterProtocol?
     var interactor: APODInteractorProtocol?
+    
+    func getAPODInformation(date: String, hd: Bool) {
+        self.interactor?.getAPODData(date: date, hd: hd)
+    }
 }
 
 extension APODPresenter: APODInteractorOutputProtocol {
+    func getAPODSuccess(_ entity: EntityAPOD) {
+        Logger.info(entity)
+    }
     
+    func getAPODFailure(error: Error) {
+        Logger.error(error)
+    }
 }

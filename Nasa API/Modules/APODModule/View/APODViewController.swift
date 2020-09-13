@@ -10,7 +10,7 @@ import UIKit
 import SwiftUI
 
 class APODViewController: UIViewController {
-
+    
     var presenter: APODPresenterProtocol?
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,15 +18,23 @@ class APODViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    func addContentView() {
+    private func addContentView() {
         let childView = UIHostingController(rootView: APODContentView())
         addChild(childView)
         childView.view.frame = view.frame
         view.addSubview(childView.view)
         childView.didMove(toParent: self)
+        
+        getData()
+    }
+    
+    private func getData() {
+        self.presenter?.getAPODInformation(date: "2020-09-12", hd: true)
     }
 }
 
 extension APODViewController: APODViewProtocol {
-    
+    func displayAPODInformation() {
+        
+    }
 }

@@ -11,15 +11,20 @@ import UIKit
 
 protocol APODInteractorProtocol: class {
     var presenter: APODInteractorOutputProtocol? { get set }
+    func getAPODData(date: String, hd: Bool)
 }
 
 protocol APODPresenterProtocol: class {
     var view: APODViewProtocol? { get set }
     var router: APODRouterProtocol? { get set }
-    var interactor: APODInteractorProtocol? { get set }}
+    var interactor: APODInteractorProtocol? { get set }
+    
+    func getAPODInformation(date: String, hd: Bool)
+}
 
 protocol APODInteractorOutputProtocol: class {
-    
+    func getAPODSuccess(_ entity: EntityAPOD)
+    func getAPODFailure(error: Error)
 }
 
 protocol APODRouterProtocol: class {
@@ -29,4 +34,6 @@ protocol APODRouterProtocol: class {
 
 protocol APODViewProtocol: class {
     var presenter: APODPresenterProtocol? { get set }
+    
+    func displayAPODInformation()
 }
