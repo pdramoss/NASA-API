@@ -34,10 +34,14 @@
 		E567E181250DB34100FB1A42 /* Metropolis-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = E567E16F250DB34100FB1A42 /* Metropolis-Light.otf */; };
 		E567E182250DB34100FB1A42 /* Metropolis-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E567E170250DB34100FB1A42 /* Metropolis-BlackItalic.otf */; };
 		E567E184250DB37400FB1A42 /* FontFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E567E183250DB37400FB1A42 /* FontFactory.swift */; };
+		E567E18F250DBB8200FB1A42 /* APODProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E567E18E250DBB8200FB1A42 /* APODProtocols.swift */; };
+		E567E191250DBC7800FB1A42 /* APODInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E567E190250DBC7800FB1A42 /* APODInteractor.swift */; };
+		E567E193250DBC9800FB1A42 /* APODPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E567E192250DBC9800FB1A42 /* APODPresenter.swift */; };
+		E567E195250DBCE600FB1A42 /* APODRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E567E194250DBCE600FB1A42 /* APODRouter.swift */; };
+		E567E197250DBD7800FB1A42 /* APODViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E567E196250DBD7800FB1A42 /* APODViewController.swift */; };
+		E567E199250DC09E00FB1A42 /* APODContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E567E198250DC09E00FB1A42 /* APODContentView.swift */; };
 		E5DE780D250D6FB300E9CC36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DE780C250D6FB300E9CC36 /* AppDelegate.swift */; };
 		E5DE780F250D6FB300E9CC36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DE780E250D6FB300E9CC36 /* SceneDelegate.swift */; };
-		E5DE7811250D6FB300E9CC36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DE7810250D6FB300E9CC36 /* ViewController.swift */; };
-		E5DE7814250D6FB300E9CC36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5DE7812250D6FB300E9CC36 /* Main.storyboard */; };
 		E5DE7816250D6FB700E9CC36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5DE7815250D6FB700E9CC36 /* Assets.xcassets */; };
 		E5DE7819250D6FB700E9CC36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5DE7817250D6FB700E9CC36 /* LaunchScreen.storyboard */; };
 		E5DE7824250D6FB700E9CC36 /* Nasa_APITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DE7823250D6FB700E9CC36 /* Nasa_APITests.swift */; };
@@ -90,11 +94,15 @@
 		E567E16F250DB34100FB1A42 /* Metropolis-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Light.otf"; sourceTree = "<group>"; };
 		E567E170250DB34100FB1A42 /* Metropolis-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-BlackItalic.otf"; sourceTree = "<group>"; };
 		E567E183250DB37400FB1A42 /* FontFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontFactory.swift; sourceTree = "<group>"; };
+		E567E18E250DBB8200FB1A42 /* APODProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODProtocols.swift; sourceTree = "<group>"; };
+		E567E190250DBC7800FB1A42 /* APODInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODInteractor.swift; sourceTree = "<group>"; };
+		E567E192250DBC9800FB1A42 /* APODPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODPresenter.swift; sourceTree = "<group>"; };
+		E567E194250DBCE600FB1A42 /* APODRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODRouter.swift; sourceTree = "<group>"; };
+		E567E196250DBD7800FB1A42 /* APODViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODViewController.swift; sourceTree = "<group>"; };
+		E567E198250DC09E00FB1A42 /* APODContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODContentView.swift; sourceTree = "<group>"; };
 		E5DE7809250D6FB300E9CC36 /* Nasa API Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nasa API Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5DE780C250D6FB300E9CC36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5DE780E250D6FB300E9CC36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E5DE7810250D6FB300E9CC36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E5DE7813250D6FB300E9CC36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5DE7815250D6FB700E9CC36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5DE7818250D6FB700E9CC36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5DE781A250D6FB700E9CC36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -207,6 +215,85 @@
 			path = "Metropolis Font";
 			sourceTree = "<group>";
 		};
+		E567E185250DBA7B00FB1A42 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E567E186250DBAB200FB1A42 /* APODModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		E567E186250DBAB200FB1A42 /* APODModule */ = {
+			isa = PBXGroup;
+			children = (
+				E567E187250DBAE500FB1A42 /* Entity */,
+				E567E188250DBAF400FB1A42 /* Interactor */,
+				E567E189250DBAFC00FB1A42 /* Presenter */,
+				E567E18A250DBB0400FB1A42 /* Protocols */,
+				E567E18B250DBB1000FB1A42 /* Router */,
+				E567E18C250DBB1700FB1A42 /* View */,
+			);
+			path = APODModule;
+			sourceTree = "<group>";
+		};
+		E567E187250DBAE500FB1A42 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		E567E188250DBAF400FB1A42 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E567E190250DBC7800FB1A42 /* APODInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		E567E189250DBAFC00FB1A42 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E567E192250DBC9800FB1A42 /* APODPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E567E18A250DBB0400FB1A42 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E567E18E250DBB8200FB1A42 /* APODProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E567E18B250DBB1000FB1A42 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				E567E194250DBCE600FB1A42 /* APODRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		E567E18C250DBB1700FB1A42 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E567E196250DBD7800FB1A42 /* APODViewController.swift */,
+				E567E198250DC09E00FB1A42 /* APODContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E567E18D250DBB3D00FB1A42 /* Initializate */ = {
+			isa = PBXGroup;
+			children = (
+				E5DE780C250D6FB300E9CC36 /* AppDelegate.swift */,
+				E5DE780E250D6FB300E9CC36 /* SceneDelegate.swift */,
+				E5DE7817250D6FB700E9CC36 /* LaunchScreen.storyboard */,
+			);
+			path = Initializate;
+			sourceTree = "<group>";
+		};
 		E5DE7800250D6FB300E9CC36 = {
 			isa = PBXGroup;
 			children = (
@@ -228,18 +315,15 @@
 		E5DE780B250D6FB300E9CC36 /* Nasa API */ = {
 			isa = PBXGroup;
 			children = (
+				E5DE781A250D6FB700E9CC36 /* Info.plist */,
+				E5DE7815250D6FB700E9CC36 /* Assets.xcassets */,
 				E567E15D250DB2CC00FB1A42 /* Assets */,
 				E567E157250DA60100FB1A42 /* Domains */,
 				E567E145250D8C7D00FB1A42 /* EnvironmentConfig */,
+				E567E18D250DBB3D00FB1A42 /* Initializate */,
 				E5DE7839250D714900E9CC36 /* Logger */,
 				E5DE782E250D707B00E9CC36 /* Networking */,
-				E5DE780C250D6FB300E9CC36 /* AppDelegate.swift */,
-				E5DE780E250D6FB300E9CC36 /* SceneDelegate.swift */,
-				E5DE7810250D6FB300E9CC36 /* ViewController.swift */,
-				E5DE7812250D6FB300E9CC36 /* Main.storyboard */,
-				E5DE7815250D6FB700E9CC36 /* Assets.xcassets */,
-				E5DE7817250D6FB700E9CC36 /* LaunchScreen.storyboard */,
-				E5DE781A250D6FB700E9CC36 /* Info.plist */,
+				E567E185250DBA7B00FB1A42 /* Modules */,
 			);
 			path = "Nasa API";
 			sourceTree = "<group>";
@@ -395,7 +479,6 @@
 				E567E17D250DB34100FB1A42 /* Metropolis-ExtraLight.otf in Resources */,
 				E567E172250DB34100FB1A42 /* Metropolis-Medium.otf in Resources */,
 				E567E175250DB34100FB1A42 /* Metropolis-SemiBoldItalic.otf in Resources */,
-				E5DE7814250D6FB300E9CC36 /* Main.storyboard in Resources */,
 				E567E181250DB34100FB1A42 /* Metropolis-Light.otf in Resources */,
 				E567E177250DB34100FB1A42 /* Metropolis-SemiBold.otf in Resources */,
 				E567E176250DB34100FB1A42 /* Metropolis-MediumItalic.otf in Resources */,
@@ -419,12 +502,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5DE7811250D6FB300E9CC36 /* ViewController.swift in Sources */,
 				E5DE780D250D6FB300E9CC36 /* AppDelegate.swift in Sources */,
 				E567E152250DA5B500FB1A42 /* NetworkingAPODApi.swift in Sources */,
 				E567E14C250D93B300FB1A42 /* LoggerProtocol.swift in Sources */,
 				E567E154250DA5CD00FB1A42 /* NetworkingAPODAdapter.swift in Sources */,
 				E5DE7836250D711200E9CC36 /* HTTPMethod.swift in Sources */,
+				E567E191250DBC7800FB1A42 /* APODInteractor.swift in Sources */,
+				E567E199250DC09E00FB1A42 /* APODContentView.swift in Sources */,
 				E5DE7838250D712E00E9CC36 /* NetworkingRouter.swift in Sources */,
 				E5DE780F250D6FB300E9CC36 /* SceneDelegate.swift in Sources */,
 				E567E14A250D905B00FB1A42 /* BuildConfiguration.swift in Sources */,
@@ -432,10 +516,14 @@
 				E567E14E250D94EF00FB1A42 /* Logger.swift in Sources */,
 				E5DE783E250D71B000E9CC36 /* DefaultNetworkManager.swift in Sources */,
 				E5DE7834250D70FA00E9CC36 /* EndPointType.swift in Sources */,
+				E567E18F250DBB8200FB1A42 /* APODProtocols.swift in Sources */,
 				E567E159250DACD400FB1A42 /* EntityAPOD.swift in Sources */,
+				E567E197250DBD7800FB1A42 /* APODViewController.swift in Sources */,
 				E567E156250DA5F300FB1A42 /* NetworkingAPODProtocols.swift in Sources */,
 				E567E184250DB37400FB1A42 /* FontFactory.swift in Sources */,
+				E567E195250DBCE600FB1A42 /* APODRouter.swift in Sources */,
 				E5DE7831250D70C700E9CC36 /* ErrorNetwoking.swift in Sources */,
+				E567E193250DBC9800FB1A42 /* APODPresenter.swift in Sources */,
 				E5DE783B250D715700E9CC36 /* NetworkingLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,14 +547,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E5DE7812250D6FB300E9CC36 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E5DE7813250D6FB300E9CC36 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E5DE7817250D6FB700E9CC36 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
