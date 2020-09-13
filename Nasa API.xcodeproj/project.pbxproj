@@ -40,6 +40,7 @@
 		E567E195250DBCE600FB1A42 /* APODRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E567E194250DBCE600FB1A42 /* APODRouter.swift */; };
 		E567E197250DBD7800FB1A42 /* APODViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E567E196250DBD7800FB1A42 /* APODViewController.swift */; };
 		E567E199250DC09E00FB1A42 /* APODContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E567E198250DC09E00FB1A42 /* APODContentView.swift */; };
+		E567E19C250DD52B00FB1A42 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E567E19B250DD52B00FB1A42 /* Theme.swift */; };
 		E5DE780D250D6FB300E9CC36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DE780C250D6FB300E9CC36 /* AppDelegate.swift */; };
 		E5DE780F250D6FB300E9CC36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DE780E250D6FB300E9CC36 /* SceneDelegate.swift */; };
 		E5DE7816250D6FB700E9CC36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5DE7815250D6FB700E9CC36 /* Assets.xcassets */; };
@@ -100,6 +101,7 @@
 		E567E194250DBCE600FB1A42 /* APODRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODRouter.swift; sourceTree = "<group>"; };
 		E567E196250DBD7800FB1A42 /* APODViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODViewController.swift; sourceTree = "<group>"; };
 		E567E198250DC09E00FB1A42 /* APODContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODContentView.swift; sourceTree = "<group>"; };
+		E567E19B250DD52B00FB1A42 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		E5DE7809250D6FB300E9CC36 /* Nasa API Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nasa API Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5DE780C250D6FB300E9CC36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5DE780E250D6FB300E9CC36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -290,6 +292,7 @@
 		E567E19A250DCDCA00FB1A42 /* Theme */ = {
 			isa = PBXGroup;
 			children = (
+				E567E19B250DD52B00FB1A42 /* Theme.swift */,
 			);
 			path = Theme;
 			sourceTree = "<group>";
@@ -511,6 +514,7 @@
 				E567E199250DC09E00FB1A42 /* APODContentView.swift in Sources */,
 				E5DE7838250D712E00E9CC36 /* NetworkingRouter.swift in Sources */,
 				E5DE780F250D6FB300E9CC36 /* SceneDelegate.swift in Sources */,
+				E567E19C250DD52B00FB1A42 /* Theme.swift in Sources */,
 				E567E14A250D905B00FB1A42 /* BuildConfiguration.swift in Sources */,
 				E567E15C250DAF3E00FB1A42 /* EntityMediaType.swift in Sources */,
 				E567E14E250D94EF00FB1A42 /* Logger.swift in Sources */,

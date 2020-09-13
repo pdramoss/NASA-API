@@ -11,6 +11,7 @@ import SwiftUI
 struct APODContentView: View {
     var body: some View {
         Text("Hello, World!")
+            .font(FontFactory.fontWithStyle(.extraBold, size: 32))
     }
 }
 
