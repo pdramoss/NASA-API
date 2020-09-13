@@ -37,9 +37,9 @@ public enum Environment {
     }
     
     static var logEnabled: Bool {
-        guard let logEnabled = Environment.infoDictionary[Keys.logEnabled.rawValue] as? Bool else {
+        guard let logEnabled = Environment.infoDictionary[Keys.logEnabled.rawValue] as? String else {
             fatalError("Log enabled is not set in plist file for this environment")
         }
-        return logEnabled
+        return Bool(logEnabled) ?? false
     }
 }
