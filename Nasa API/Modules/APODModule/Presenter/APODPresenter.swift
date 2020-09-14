@@ -20,6 +20,7 @@ class APODPresenter: APODPresenterProtocol {
 
 extension APODPresenter: APODInteractorOutputProtocol {
     func getAPODSuccess(_ entity: EntityAPOD) {
+        self.view?.displayAPODInformation(entity)
         Logger.info(entity)
     }
     

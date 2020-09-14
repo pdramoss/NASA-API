@@ -12,6 +12,8 @@ import SwiftUI
 class APODViewController: UIViewController {
     
     var presenter: APODPresenterProtocol?
+    private var contentView = APODContentView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         addContentView()
@@ -19,7 +21,7 @@ class APODViewController: UIViewController {
     }
     
     private func addContentView() {
-        let childView = UIHostingController(rootView: APODContentView())
+        let childView = UIHostingController(rootView: contentView)
         addChild(childView)
         childView.view.frame = view.frame
         view.addSubview(childView.view)
@@ -34,7 +36,7 @@ class APODViewController: UIViewController {
 }
 
 extension APODViewController: APODViewProtocol {
-    func displayAPODInformation() {
+    func displayAPODInformation(_ entity: EntityAPOD) {
         
     }
 }

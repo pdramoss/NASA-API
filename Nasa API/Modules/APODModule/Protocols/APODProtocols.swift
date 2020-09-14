@@ -35,5 +35,5 @@ protocol APODRouterProtocol: class {
 protocol APODViewProtocol: class {
     var presenter: APODPresenterProtocol? { get set }
     
-    func displayAPODInformation()
+    func displayAPODInformation(_ entity: EntityAPOD)
 }

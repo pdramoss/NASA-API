@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E5DE7808250D6FB300E9CC36"
-               BuildableName = "Nasa API.app"
+               BuildableName = "Nasa API Dev.app"
                BlueprintName = "Nasa API"
                ReferencedContainer = "container:Nasa API.xcodeproj">
             </BuildableReference>
@@ -59,7 +59,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E5DE7808250D6FB300E9CC36"
-            BuildableName = "Nasa API.app"
+            BuildableName = "Nasa API Dev.app"
             BlueprintName = "Nasa API"
             ReferencedContainer = "container:Nasa API.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E5DE7808250D6FB300E9CC36"
-            BuildableName = "Nasa API.app"
+            BuildableName = "Nasa API Dev.app"
             BlueprintName = "Nasa API"
             ReferencedContainer = "container:Nasa API.xcodeproj">
          </BuildableReference>

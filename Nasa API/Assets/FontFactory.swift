@@ -12,6 +12,8 @@ import SwiftUI
 protocol FontFactoryProtocol: class {
     associatedtype style
     static func fontWithStyle(_ style: style, size: CGFloat) -> Font
+    static func fontWithStyle(_ style: style, _ heading: Theme.Typography.Heading) -> Font
+    static func fontWithStyle(_ style: style, _ paragraph: Theme.Typography.Paragraph) -> Font
 }
 
 class FontFactory {
@@ -45,5 +47,13 @@ extension FontFactory: FontFactoryProtocol {
         let name = "\(familyName)-\(style.rawValue)"
         Logger.info(name)
         return Font.custom(name, size: size)
+    }
+    
+    static func fontWithStyle(_ style: StyleEnum, _ heading: Theme.Typography.Heading) -> Font {
+        fontWithStyle(style, size: heading.rawValue)
+    }
+    
+    static func fontWithStyle(_ style: StyleEnum, _ paragraph: Theme.Typography.Paragraph) -> Font {
+        fontWithStyle(style, size: paragraph.rawValue)
     }
 }
