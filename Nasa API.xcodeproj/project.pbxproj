@@ -45,6 +45,7 @@
 		E5C6F412250EEB3E000EC6D2 /* CLForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C6F411250EEB3E000EC6D2 /* CLForm.swift */; };
 		E5C6F414250EFD89000EC6D2 /* APODDetailContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C6F413250EFD89000EC6D2 /* APODDetailContentView.swift */; };
 		E5C6F416250EFE11000EC6D2 /* CLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C6F415250EFE11000EC6D2 /* CLImage.swift */; };
+		E5C6F418250F0592000EC6D2 /* CLVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C6F417250F0592000EC6D2 /* CLVideoView.swift */; };
 		E5DE780D250D6FB300E9CC36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DE780C250D6FB300E9CC36 /* AppDelegate.swift */; };
 		E5DE780F250D6FB300E9CC36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DE780E250D6FB300E9CC36 /* SceneDelegate.swift */; };
 		E5DE7816250D6FB700E9CC36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5DE7815250D6FB700E9CC36 /* Assets.xcassets */; };
@@ -110,6 +111,7 @@
 		E5C6F411250EEB3E000EC6D2 /* CLForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLForm.swift; sourceTree = "<group>"; };
 		E5C6F413250EFD89000EC6D2 /* APODDetailContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODDetailContentView.swift; sourceTree = "<group>"; };
 		E5C6F415250EFE11000EC6D2 /* CLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLImage.swift; sourceTree = "<group>"; };
+		E5C6F417250F0592000EC6D2 /* CLVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLVideoView.swift; sourceTree = "<group>"; };
 		E5DE7809250D6FB300E9CC36 /* Nasa API Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nasa API Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5DE780C250D6FB300E9CC36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5DE780E250D6FB300E9CC36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				E543F7B1250EC638001525B9 /* CLCard.swift */,
 				E5C6F411250EEB3E000EC6D2 /* CLForm.swift */,
 				E5C6F415250EFE11000EC6D2 /* CLImage.swift */,
+				E5C6F417250F0592000EC6D2 /* CLVideoView.swift */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -544,6 +547,7 @@
 				E5DE780D250D6FB300E9CC36 /* AppDelegate.swift in Sources */,
 				E567E152250DA5B500FB1A42 /* NetworkingAPODApi.swift in Sources */,
 				E567E14C250D93B300FB1A42 /* LoggerProtocol.swift in Sources */,
+				E5C6F418250F0592000EC6D2 /* CLVideoView.swift in Sources */,
 				E567E154250DA5CD00FB1A42 /* NetworkingAPODAdapter.swift in Sources */,
 				E5DE7836250D711200E9CC36 /* HTTPMethod.swift in Sources */,
 				E567E191250DBC7800FB1A42 /* APODInteractor.swift in Sources */,
