@@ -21,17 +21,23 @@ class APODViewController: UIViewController {
     }
     
     private func addContentView() {
+        self.contentView = setupContentView()
         let childView = UIHostingController(rootView: contentView)
         addChild(childView)
         childView.view.frame = view.frame
         view.addSubview(childView.view)
         childView.didMove(toParent: self)
-        
-        getData()
     }
     
-    private func getData() {
-        self.presenter?.getAPODInformation(date: "2020-09-12", hd: true)
+    private func setupContentView() -> APODContentView {
+        let contentView = APODContentView { [weak self] (date) in
+            self?.getData(date)
+        }
+        return contentView
+    }
+    
+    private func getData(_ date: String) {
+        self.presenter?.getAPODInformation(date: date, hd: true)
     }
 }
 

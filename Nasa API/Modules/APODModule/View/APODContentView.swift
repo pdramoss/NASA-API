@@ -20,6 +20,7 @@ struct APODContentView: View {
         return eightDaysAgo...Date()
     }
     
+    @State var searchAPOD: ((String) -> Void)?
     @State private var date = Date()
     var body: some View {
         VStack {
@@ -30,7 +31,7 @@ struct APODContentView: View {
             Text("Date is \(date, formatter: dateFormatter)")
             Spacer(minLength: 25)
             Button(action: {
-                
+                self.searchAPOD?(self.dateString())
             }) {
                 Text("Search")
                     .font(FontFactory.fontWithStyle(.semiBold, .paragraph02))
@@ -44,6 +45,9 @@ struct APODContentView: View {
             .edgesIgnoringSafeArea(.all))
     }
     
+    private func dateString() -> String {
+        dateFormatter.string(from: date)
+    }
     
 }
 
