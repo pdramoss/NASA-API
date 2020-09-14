@@ -42,7 +42,4 @@ class APODViewController: UIViewController {
 }
 
 extension APODViewController: APODViewProtocol {
-    func displayAPODInformation(_ entity: EntityAPOD) {
-        
-    }
 }

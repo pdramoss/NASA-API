@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import SwiftUI
 
 class APODRouter: APODRouterProtocol {
     weak var viewController: UIViewController?
@@ -28,5 +29,12 @@ class APODRouter: APODRouterProtocol {
         
         ref.presenter = presenter
         return ref
+    }
+    
+    func presentDetail(_ entity: EntityAPOD) {
+        let newViewController = UIHostingController(rootView: APODDetailContentView(entity: entity))
+        DispatchQueue.main.async {
+            self.viewController?.navigationController?.pushViewController(newViewController, animated: true)
+        }
     }
 }

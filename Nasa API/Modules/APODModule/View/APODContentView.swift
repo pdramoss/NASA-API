@@ -15,18 +15,13 @@ struct APODContentView: View {
         return formatter
     }
     
-    private var closedRange: ClosedRange<Date> {
-        let eightDaysAgo = Calendar.current.date(byAdding: .day, value: -18, to: Date())!
-        return eightDaysAgo...Date()
-    }
-    
     @State var searchAPOD: ((String) -> Void)?
     @State private var date = Date()
     var body: some View {
         VStack {
             CLForm(title: "Astronomy Pictute of the Day")
             CLCard(title: "Discover the cosmos!", explanation: "Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.")
-            DatePicker(String(), selection: $date, in: closedRange, displayedComponents: .date)
+            DatePicker(String(), selection: $date, in: ...Date(), displayedComponents: .date)
             
             Text("Date is \(date, formatter: dateFormatter)")
             Spacer(minLength: 25)

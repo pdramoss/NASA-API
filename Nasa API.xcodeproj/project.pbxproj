@@ -43,6 +43,8 @@
 		E567E199250DC09E00FB1A42 /* APODContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E567E198250DC09E00FB1A42 /* APODContentView.swift */; };
 		E567E19C250DD52B00FB1A42 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E567E19B250DD52B00FB1A42 /* Theme.swift */; };
 		E5C6F412250EEB3E000EC6D2 /* CLForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C6F411250EEB3E000EC6D2 /* CLForm.swift */; };
+		E5C6F414250EFD89000EC6D2 /* APODDetailContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C6F413250EFD89000EC6D2 /* APODDetailContentView.swift */; };
+		E5C6F416250EFE11000EC6D2 /* CLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C6F415250EFE11000EC6D2 /* CLImage.swift */; };
 		E5DE780D250D6FB300E9CC36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DE780C250D6FB300E9CC36 /* AppDelegate.swift */; };
 		E5DE780F250D6FB300E9CC36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DE780E250D6FB300E9CC36 /* SceneDelegate.swift */; };
 		E5DE7816250D6FB700E9CC36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5DE7815250D6FB700E9CC36 /* Assets.xcassets */; };
@@ -106,6 +108,8 @@
 		E567E198250DC09E00FB1A42 /* APODContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODContentView.swift; sourceTree = "<group>"; };
 		E567E19B250DD52B00FB1A42 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		E5C6F411250EEB3E000EC6D2 /* CLForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLForm.swift; sourceTree = "<group>"; };
+		E5C6F413250EFD89000EC6D2 /* APODDetailContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODDetailContentView.swift; sourceTree = "<group>"; };
+		E5C6F415250EFE11000EC6D2 /* CLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLImage.swift; sourceTree = "<group>"; };
 		E5DE7809250D6FB300E9CC36 /* Nasa API Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nasa API Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5DE780C250D6FB300E9CC36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5DE780E250D6FB300E9CC36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -146,6 +150,7 @@
 			children = (
 				E543F7B1250EC638001525B9 /* CLCard.swift */,
 				E5C6F411250EEB3E000EC6D2 /* CLForm.swift */,
+				E5C6F415250EFE11000EC6D2 /* CLImage.swift */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -288,6 +293,7 @@
 			children = (
 				E567E196250DBD7800FB1A42 /* APODViewController.swift */,
 				E567E198250DC09E00FB1A42 /* APODContentView.swift */,
+				E5C6F413250EFD89000EC6D2 /* APODDetailContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -551,6 +557,7 @@
 				E567E14E250D94EF00FB1A42 /* Logger.swift in Sources */,
 				E5DE783E250D71B000E9CC36 /* DefaultNetworkManager.swift in Sources */,
 				E5DE7834250D70FA00E9CC36 /* EndPointType.swift in Sources */,
+				E5C6F414250EFD89000EC6D2 /* APODDetailContentView.swift in Sources */,
 				E567E18F250DBB8200FB1A42 /* APODProtocols.swift in Sources */,
 				E567E159250DACD400FB1A42 /* EntityAPOD.swift in Sources */,
 				E567E197250DBD7800FB1A42 /* APODViewController.swift in Sources */,
@@ -560,6 +567,7 @@
 				E567E195250DBCE600FB1A42 /* APODRouter.swift in Sources */,
 				E5DE7831250D70C700E9CC36 /* ErrorNetwoking.swift in Sources */,
 				E567E193250DBC9800FB1A42 /* APODPresenter.swift in Sources */,
+				E5C6F416250EFE11000EC6D2 /* CLImage.swift in Sources */,
 				E5DE783B250D715700E9CC36 /* NetworkingLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

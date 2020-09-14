@@ -30,10 +30,9 @@ protocol APODInteractorOutputProtocol: class {
 protocol APODRouterProtocol: class {
     var viewController: UIViewController? { get set }
     static func createModule() -> APODViewController
+    func presentDetail(_ entity: EntityAPOD)
 }
 
 protocol APODViewProtocol: class {
     var presenter: APODPresenterProtocol? { get set }
-    
-    func displayAPODInformation(_ entity: EntityAPOD)
 }
